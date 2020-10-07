@@ -6,5 +6,4 @@ public record Person(int id) {
 	protected void finalize() throws Throwable {
 		System.out.println(this + "==>" + this.id());
 	}
-
 }
